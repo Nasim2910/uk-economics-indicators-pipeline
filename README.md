@@ -36,11 +36,13 @@ Built on top of silver using SQL window functions:
 
 Like silver, gold tables are rebuilt in full on each run.
 
+Built a streamlit dashboard to display visualisations more effectively, users can pick which visualisation to view.
+
 ### Tooling
 
 - **Extraction**: Python (`requests`) against the ONS API
 - **Storage/transformation**: DuckDB, queried via both SQL and its native pandas DataFrame integration
-- **Analysis/visualization**: pandas, matplotlib, seaborn
+- **Analysis/visualization**: pandas, matplotlib, seaborn, Streamlit
 - **Environment**: managed via conda, with dependencies pinned in `requirements.txt`
 
 ### Known limitations
